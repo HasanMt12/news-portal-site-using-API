@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Townsman News</title>
+    <!-- Bootstrap CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+    <!-- Font Awesome link -->
+    <script src="https://kit.fontawesome.com/00c39e9316.js" crossorigin="anonymous"></script>
+    <!-- Favicon link -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: rgb(238, 243, 248);
+    
+        }
+    
+        .footer-bg {
+            background-color: lightgray;
+        }
+       
+    </style>
+</head>
+<body>
+    <section class="container">
+    <!-- nav section start here -->
+        <nav class="navbar navbar-expand-lg bg-light rounded-3 shadow">
+            <div class="container">
+                <img src="images/logo.png" class="navbar-brand text-light" href="#">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto  mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-2xl text-light " aria-current="page"
+                                href="index.html">news</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold text-info text-2xl text-decoration-underline active" href="blogs.html" target="_blank">blog</a>
+                        </li>
+                        <li>
+                            <img src="images/user.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- nav section End here -->
+    <main class="container">
+        <section>
+            <div class="container my-5">
+                <div class="text-center">
+                    <h1 class="text-main">Frequently Asked Questions in Basic javascript Concept</h1>
+                    <!-- <p>
+                            In FAQ page is a time-saving customer service tactic that provides <br>
+                            the most commonly asked questions and answers for current or
+                            potential customers.
+                        </p> -->
+                </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row d-flex justify-content-center pb-5">
+                    <div class="col-12 col-lg-8 ">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+        
+                            <div class="accordion-item border-1 border-info mb-4 ">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                        <span class="text-secondary">Difference between var let and const</span>
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        <p>
+                                        <strong>1.var:</strong>  The var keyword declares a function-scoped or global variable. Function-scoped means that the variable is only available within the function it was declared in. Global variables are available throughout your entire code. <br>
+
+                                        <strong>2.let:</strong>  The let keyword declares a block-scoped local variable.Block-scoped means that the variable is only available within the block it was declared in <br>
+
+                                        <strong> 3.const</strong>The const keyword declares a block-scoped.a variable that can't be reassigned Constants are also called “immutable variables”, but that's a bit of a misnomer since they are actually variables - just ones that can't be reassigned.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-1 border-info mb-4 ">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseTwo">
+                                        Difference between arrow function and normal function.
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <strong> Today, there are two common methods of declaring a function in JavaScript: <br> </strong> <span class="text-info">Arrow
+                                            functions and Regular functions</span> . <br> The first and most obvious difference between arrow
+                                            functions and regular functions is their syntax. Not only do they look different,
+                                            but arrow functions also provide an implicit return shorthand and allow parenthesis
+                                            around a single argument to be omitted. Regular functions can be used as
+                                            constructors, using the new keyword. Yet another consequence of the lexical
+                                            resolution of this inside arrow functions is that they cannot be used as
+                                            constructors. Using new with an arrow function results in a TypeError. <br> Another
+                                            difference is the binding of the arguments object. Unlike regular functions, arrow
+                                            functions don't have their own arguments object. A modern alternative that
+                                            circumvents this limitation is the usage of rest parameters.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-1 border-info mb-4 ">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseThree">
+                                        Difference between foreach map, filter and find.
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li> <strong>The forEach()</strong> method is the most similar to the for loop. The
+                                                function inside the parentheses of the .<strong>forEach()</strong> is simply
+                                                executed "for each" element of the array.
+                                            </li>
+                                            <li> <strong>The map()</strong> is a lot like .forEach(), but it very helpfully
+                                                creates and returns a new array. Use <strong>.map()</strong> whenever you need
+                                                to update data inside an array (by mapping over it!).
+                                            </li>
+                                            <li><strong>The filter()</strong> loops through (or iterates) through data, and
+                                                filters out data that doesn't match the criteria that we set. We define what
+                                                those criteria are through a truth test inside a function.
+                                            </li>
+                                            <li><strong>The find()</strong> method returns the value of the first element that
+                                                passes a test. <strong>The find()</strong> method executes a function for each
+                                                array element. <strong>The find()</strong> method returns undefined if no
+                                                elements are found.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-1 border-info mb-4 ">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseFour">
+                                        Why i used template string?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingFour">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Template were introduced in ES6 to allow embed expressions inside a string. Instead
+                                            of ‘’ or “” quotation marks they use the backticks (``). They offer a much better
+                                            way of string interpolation and expressions can be embedded in a way like ${a+b}. It
+                                            offers a much nicer syntax than the + operator.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container my-2 footer-bg shadow rounded-3" style="height: 20vh;">
+        <section class="d-flex justify-content-between my-4 ">
+            <div class="align-items-center mt-2 me-2">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="mt-2 me-2">
+                <a href="#Headerhome" class="btn btn-info "><i class="fa fa-arrow-up margin-right "></i> To the top</a>
+            </div>
+    
+        </section>
+        <div>
+            <h5 class="text-center text-muted ">Copyright © 2022 Daily townsman news</h5>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+    
+</body>
+</html>
